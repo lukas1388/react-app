@@ -2,6 +2,7 @@ import styles from './List.module.scss';
 import Column from '../Column/Column';
 import ColumnForm from '../ColumnForm/ColumnForm';
 import { useSelector } from 'react-redux';
+import shortid from 'shortid';
 
 const List = () => {
 
@@ -14,7 +15,7 @@ const List = () => {
             </header>
             <p className={styles.description}>Interesting things I want to check out</p>
             <section className={styles.columns}>
-                {columns.map(column => <Column key={column.id} {...column} />)}
+                {columns.map(column => <Column key={shortid()} {...column} />)}
             </section>
             <ColumnForm />
         </div>
