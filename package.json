@@ -9,7 +9,11 @@
     "font-awesome": "^4.7.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+<<<<<<< HEAD
     "react-redux": "^8.0.1",
+=======
+    "react-redux": "^8.0.2",
+>>>>>>> 32fcfab699f5fad55e2f2b0291f3256bbbb4ae84
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "redux": "^4.2.0",
