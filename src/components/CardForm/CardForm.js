@@ -1,11 +1,12 @@
 import styles from './CardForm.module.scss';
-import { useState } from 'react';
 import Button from '../Button/Button';
 import TextInput from '../TextInput/TextInput';
+import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addCard } from '../../redux/store';
 
 const CardForm = props => {
+
     const [title, setTitle] = useState('');
 
     const dispatch = useDispatch();

@@ -1,0 +1,16 @@
+
+@use "sass:math";
+@import '../../styles/settings.scss';
+
+.wrapper {
+    justify-content: end;
+    width: calc(33% - 12px);
+    background: $color-light;
+    margin: 30px auto;
+    padding: ($base-size * 1.5);
+    border-radius: $radius;
+    color: $color-dark;
+}
+.cards {
+    padding: math.div($base-size, 2) 0;
+}

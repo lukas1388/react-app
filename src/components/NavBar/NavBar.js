@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import Container from "../Container/Container";
 import styles from './NavBar.module.scss';
-import Container from '../Container/Container';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
     return (
